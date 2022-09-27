@@ -5,15 +5,14 @@ export const StyledMovieCard = styled(Link)`
   display: block;
   text-decoration: none;
   height: 100%;
-  border: 1px solid blue;
   border-radius: 10px;
   overflow: hidden;
-  background-color: #282c34;
-  color: #b2b3f6;
+  background-color: #a52a2a;
+  color: #fffaf0;
   box-shadow: 5px 5px 5px #282c34;
   transition: all 0.2s ease-in-out;
   &:hover {
-    transform: scale(1.05);
+    transform: scale(1.01);
     box-shadow: 10px 10px 10px #282c34;
   }
 `;
@@ -40,7 +39,7 @@ export const Rating = styled.span`
   padding: 5px;
   background-color: ${({ rating }) => {
     if (rating > 6) {
-      return '#6c3';
+      return '#8FBC8F';
     }
     if (rating >= 4 && rating <= 6) {
       return '#fc3';
