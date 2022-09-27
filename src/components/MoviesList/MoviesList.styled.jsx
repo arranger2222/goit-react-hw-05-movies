@@ -7,7 +7,7 @@ export const StyledMovieCard = styled(Link)`
   height: 100%;
   border-radius: 10px;
   overflow: hidden;
-  background-color: #a52a2a;
+  background-color: #c0c0c0;
   color: #fffaf0;
   box-shadow: 5px 5px 5px #282c34;
   transition: all 0.2s ease-in-out;
